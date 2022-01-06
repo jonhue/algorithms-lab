@@ -4,6 +4,6 @@ I find this problem statement rather confusing. Originally, I interpreted it as 
 
 Both are quite straightforward, though, and their implementation differs in only one line.
 
-We observe that given a subsequence of sovereigns (from $i$ to $j$) we have a fixed result. This is because for each such subsequence there is a single player whose turn it is. Thus, we $i$ and $j$ isentify non-overlapping subproblems which we use to setup our dynamic program. Note that this is very similar to what we have done in Burning Coins.
+We observe that given a subsequence of sovereigns (from $i$ to $j$) we have a fixed result. This is because for each such subsequence there is a single player whose turn it is. Thus, $i$ and $j$ identify non-overlapping subproblems which we use to setup our dynamic program. Note that this is very similar to what we have done in Burning Coins.
 
 Overall, our algorithm attains a time complexity of $\mathcal{O}(n^2)$.

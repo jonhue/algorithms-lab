@@ -5,7 +5,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 | Week | Topic | Problem of the Week | Problem 1 | Problem 2 | Problem 3 | Problem 4 |
 | ---- | ----- | ------------------- | --------- | --------- | --------- | --------- |
 | 1 | partial sums, sliding window | [Deck of Cards](potw/02-deck-of-cards) | [Build the Sum](01/build-the-sum) | [Dominoes](01/dominoes) | [Even Pairs](01/even-pairs) | [Even Matrices](01/even-matrices) |
-| 2 | dynamic programming | | [Beach Bars](02/beach-bars) | [Burning Coins](02/burning-coins) | | |
+| 2 | dynamic programming | | [Beach Bars](02/beach-bars) | [Burning Coins](02/burning-coins) | [The Great Game](02/the-great-game) | |
 | 3 | | | | | | |
 | 4 | | | | | | |
 | 5 | | | | | | |

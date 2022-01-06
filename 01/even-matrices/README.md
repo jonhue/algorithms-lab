@@ -5,7 +5,7 @@
 We first compute the sums $S_{i,j}$ for all quadruples $(1,i,1,j)$. This can be done in $\mathcal{O}(n^2)$:
 
 $$
-S_{i,j} = S_{i-1,j} + S_{i,j-1} - S_{i-1,j-1} + x_{i,j}.
+S_{i,j} = \sum_{i'=0}^i \sum_{j'=0}^j x_{i',j'} = S_{i-1,j} + S_{i,j-1} - S_{i-1,j-1} + x_{i,j}.
 $$
 
 ## Computing the number of even quadruples

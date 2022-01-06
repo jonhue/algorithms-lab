@@ -1,5 +1,7 @@
 # Even Pairs
 
+* partial sums
+
 Similarly to the tutorial, we count the number of even sums from $x_0$ to $x_i$ (lets call this quantity $E$). Then the number of even "sub-sums" is
 
 $$

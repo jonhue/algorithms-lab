@@ -1,5 +1,7 @@
 # Even Matrices
 
+* partial sums
+
 ## Precomputing Partial Sums
 
 We first compute the sums $S_{i,j}$ for all quadruples $(1,i,1,j)$. This can be done in $\mathcal{O}(n^2)$:

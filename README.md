@@ -17,3 +17,22 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 | 11 | | | | | | |
 | 12 | | | | | | |
 | 13 | | | | | | |
+
+## Topics
+
+### Partial Sums
+
+* [Even Pairs](01/even-pairs)
+* [Even Matrices](01/even-matrices)
+
+### Sliding Window
+
+* [Deck of Cards](potw/02-deck-of-cards)
+* [Beach Bars](02/beach-bars)
+
+### Dynamic Programming
+
+* [Burning Coins](02/burning-coins)
+* [The Great Game](02/the-great-game)
+* [Defensive Line](02/defensive-line)
+* [From Russia with Love](potw/03-from-russia-with-love)

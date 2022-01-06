@@ -1,4 +1,4 @@
-# From Russie with Love
+# From Russia with Love
 
 I find this problem statement rather confusing. Originally, I interpreted it as that we should find the largest winnings of player $k$ _regardless_ of how other players play. That is, the largest possible winnings of player $k$. However, what we are supposed to find is the maximal _guaranteed_ winnings of player $k$ (assuming all other players play adversarially).
 

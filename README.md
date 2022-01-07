@@ -4,9 +4,9 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 
 | Week | Topic | Problem of the Week | Problem 1 | Problem 2 | Problem 3 | Problem 4 |
 | ---- | ----- | ------------------- | --------- | --------- | --------- | --------- |
-| 1 | partial sums, sliding window | [Deck of Cards](potw/02-deck-of-cards) | [Build the Sum](01/build-the-sum) | [Dominoes](01/dominoes) | [Even Pairs](01/even-pairs) | [Even Matrices](01/even-matrices) |
-| 2 | dynamic programming | [From Russia with Love](potw/03-from-russia-with-love) | [Beach Bars](02/beach-bars) | [Burning Coins](02/burning-coins) | [The Great Game](02/the-great-game) | [Defensive Line](02/defensive-line) |
-| 3 |  | | [Hit](03/hit) | [First Hit](03/first-hit) | [Antenna](03/antenna) | |
+| 1 | partial sums, sliding window | | [Build the Sum](01/build-the-sum) | [Dominoes](01/dominoes) | [Even Pairs](01/even-pairs) | [Even Matrices](01/even-matrices) |
+| 2 | dynamic programming | [Deck of Cards](potw/02-deck-of-cards) | [Beach Bars](02/beach-bars) | [Burning Coins](02/burning-coins) | [The Great Game](02/the-great-game) | [Defensive Line](02/defensive-line) |
+| 3 | geometry | [From Russia with Love](potw/03-from-russia-with-love) | [Hit](03/hit) | [First Hit](03/first-hit) | [Antenna](03/antenna) | [Hiking Maps](03/hiking-maps) |
 | 4 | | | | | | |
 | 5 | | | | | | |
 | 6 | | | | | | |
@@ -17,6 +17,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 | 11 | | | | | | |
 | 12 | | | | | | |
 | 13 | | | | | | |
+| 14 | | | | | | |
 
 ## Topics
 
@@ -29,6 +30,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 
 * [Deck of Cards](potw/02-deck-of-cards)
 * [Beach Bars](02/beach-bars)
+* [Hiking Maps](03/hiking-maps)
 
 ### Dynamic Programming
 
@@ -47,3 +49,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 #### Minimum Enclosing Circle
 
 * [Antenna](03/antenna)
+
+#### Triangles
+
+* [Hiking Maps](03/hiking-maps)

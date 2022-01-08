@@ -24,10 +24,6 @@ void solve() {
 
   std::vector<std::array<L, 3>> triangles;
   for (int i = 0; i < n; i++) {
-    // int a1, a2, b1, b2, c1, c2, d1, d2, e1, e2, f1, f2;
-    // std::cin >> a1 >> a2 >> b1 >> b2 >> c1 >> c2 >> d1 >> d2 >> e1 >> e2 >> f1 >> f2;
-    // P a = P(a1, a2); P b = P(b1, b2); P c = P(c1, c2); P d = P(d1, d2); P e = P(e1, e2); P f = P(f1, f2);
-
     std::array<P, 6> points;
     for (int j = 0; j < 6; j++) {
       int x, y; std::cin >> x >> y;

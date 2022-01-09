@@ -16,3 +16,5 @@ This can be done in $\mathcal{O}(n \cdot c \log c \cdot l + n^2 \cdot c \cdot l)
 ## Analyzing the graph
 
 We subtract $f$ from the weight of each edge. Then we find a maximum cardinality matching. If this matching matches all vertices, then there is clearly a better choice of buddies than the baseline. If, on the other hand, this matching does not match all vertices, the provided baseline is already optimal.
+
+This step can be done in $\mathcal{O}(n^3)$ time.

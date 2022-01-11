@@ -6,4 +6,4 @@ Observe that the right boundary of any selected boat will be in the interval $[p
 
 ## Proof of Optimality
 
-![image](https://user-images.githubusercontent.com/13420273/148762505-6ba73a8a-7ede-4d8f-9e99-75412dc922a4.png)
+![image](https://user-images.githubusercontent.com/13420273/148954675-4cddb6d0-2e8a-4d90-9c9d-6625cbea6d33.png)

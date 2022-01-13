@@ -10,7 +10,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 | 4 | graphs | [Fighting Pits of Mereen](potw/04-fighting-pits-of-mereen) | [First Steps with BGL](04/first-steps-with-bgl) | [Ant Challenge](04/ant-challenge) | [Buddy Selection](04/buddy-selection) | [Important Bridges](04/important-bridges) |
 | 5 | greedy, split & list | [Motorcycles](potw/05-motorcycles) | [Boats](05/boats) | [Moving Books](05/moving-books) | [Severus Snape](05/severus-snape) | [Asterix the Gaul](05/asterix-the-gaul) |
 | 6 | linear programming | [Planet Express](potw/06-planet-express) | [What is the Maximum?](06/what-is-the-maximum) | [Diet](06/diet) | [Inball](06/inball) | [Lannister](06/lannister) |
-| 7 | flows | [Octopussy](potw/07-octopussy) | [Shopping Trip](07/shopping-trip) | | | |
+| 7 | flows | [Octopussy](potw/07-octopussy) | [Shopping Trip](07/shopping-trip) | [Knights](07/knights) | | |
 | 8 | | | | | | |
 | 9 | | | | | | |
 | 10 | | | | | | |
@@ -92,6 +92,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 #### Flows
 
 * [Shopping Trip](07/shopping-trip)
+* [Knights](07/knights)
 
 ### Greedy
 

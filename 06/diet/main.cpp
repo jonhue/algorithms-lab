@@ -7,7 +7,6 @@
 typedef int IT;
 typedef CGAL::Gmpq ET;
 
-// program and solution types
 typedef CGAL::Quadratic_program<IT> Program;
 typedef CGAL::Quadratic_program_solution<ET> Solution;
 

@@ -11,7 +11,7 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 | 5 | greedy, split & list | [Motorcycles](potw/05-motorcycles) | [Boats](05/boats) | [Moving Books](05/moving-books) | [Severus Snape](05/severus-snape) | [Asterix the Gaul](05/asterix-the-gaul) |
 | 6 | linear programming | [Planet Express](potw/06-planet-express) | [What is the Maximum?](06/what-is-the-maximum) | [Diet](06/diet) | [Inball](06/inball) | [Lannister](06/lannister) |
 | 7 | flows | [Octopussy](potw/07-octopussy) | [Shopping Trip](07/shopping-trip) | [Knights](07/knights) | [Coin Tossing Tournament](07/coin-tossing-tournament) | [London](07/london) |
-| 8 | | | | | | |
+| 8 | proximity structures | [Suez](potw/08-suez) | | | | |
 | 9 | | | | | | |
 | 10 | | | | | | |
 | 11 | | | | | | |
@@ -114,3 +114,4 @@ These are my solutions for the problems posed during the Algorithms Lab of 2021 
 * [Diet](06/diet)
 * [Inball](06/inball)
 * [Lannister](06/lannister)
+* [Suez](potw/08-suez)

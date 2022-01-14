@@ -13,7 +13,6 @@ typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, boost:
 
 typedef boost::graph_traits<graph>::edge_descriptor             edge_desc;
 typedef boost::graph_traits<graph>::out_edge_iterator           out_edge_it;
-
 class edge_adder {
  graph &G;
 
@@ -35,31 +34,31 @@ class edge_adder {
 };
 
 void solve() {
-  int N, M, S; std::cin >> N >> M >> S;
+  int n; std::cin >> n;
 
-  std::vector<int> limits;
-  for (int i = 0; i < S; i++) {
-    int l; std::cin >> l;
-    limits.push_back(l);
+  std::vector<std::pair<int, int>> in;
+  for (int i = 0; i < n; i++) {
+    int a, c; std::cin >> a >> c;
+    in.push_back({a, c});
   }
 
-  std::vector<int> states;
-  for (int i = 0; i < M; i++) {
-    int s; std::cin >> s;
-    states.push_back(s);
+  std::vector<std::pair<int, int>> out;
+  int total_s = 0;
+  int max_p = 0;
+  for (int i = 0; i < n; i++) {
+    int s, p; std::cin >> s >> p;
+    out.push_back({s, p});
+    total_s += s;
+    max_p = std::max(max_p, p);
   }
 
-  std::vector<std::vector<int>> bids(N, std::vector<int>());
-  int max_bid = 0;
-  for (int i = 0; i < N; i++) {
-    for (int j = 0; j < M; j++) {
-      int b; std::cin >> b;
-      bids[i].push_back(b);
-      max_bid = std::max(max_bid, b);
-    }
+  std::vector<std::pair<int, int>> trans;
+  for (int i = 0; i < n - 1; i++) {
+    int v, e; std::cin >> v >> e;
+    trans.push_back({v, e});
   }
 
-  graph G(N + M + S);
+  graph G(n);
   edge_adder adder(G);
   auto c_map = boost::get(boost::edge_capacity, G);
   auto rc_map = boost::get(boost::edge_residual_capacity, G);
@@ -67,24 +66,17 @@ void solve() {
   const auto source = boost::add_vertex(G);
   const auto target = boost::add_vertex(G);
 
-  const int sites_offset = N;
-  const int states_offset = N + M;
+  for (int i = 0; i < n; i++) {
+    const auto [a, c] = in[i];
+    adder.add_edge(source, i, a, c);
 
-  for (int i = 0; i < N; i++) {
-    adder.add_edge(source, i, 1, 0);
+    const auto [s, p] = out[i];
+    adder.add_edge(i, target, s, max_p - p);
 
-    for (int j = 0; j < M; j++) {
-      adder.add_edge(i, sites_offset + j, 1, max_bid - bids[i][j]);
+    if (i + 1 < n) {
+      const auto [v, e] = trans[i];
+      adder.add_edge(i, i + 1, v, e);
     }
-  }
-
-  for (int i = 0; i < M; i++) {
-    int j = states[i] - 1;
-    adder.add_edge(sites_offset + i, states_offset + j, 1, 0);
-  }
-
-  for (int i = 0; i < S; i++) {
-    adder.add_edge(states_offset + i, target, limits[i], 0);
   }
 
   boost::successive_shortest_path_nonnegative_weights(G, source, target);
@@ -95,8 +87,13 @@ void solve() {
     flow += c_map[*e] - rc_map[*e];
   }
 
-  int profit = flow * max_bid - cost;
+  int profit = flow * max_p - cost;
 
+  if (flow == total_s) {
+    std::cout << "possible ";
+  } else {
+    std::cout << "impossible ";
+  }
   std::cout << flow << " " << profit << std::endl;
 }
 

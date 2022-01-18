@@ -25,7 +25,7 @@ Marked in **bold** are the harder problems (in my optinion).
 
 ### Binary Search
 
-* [Asterix the Gaul](05/asterix-the-gaul)
+* [**Asterix the Gaul**](05/asterix-the-gaul)
 
 ### Disjoint-Sets
 

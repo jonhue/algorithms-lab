@@ -15,7 +15,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 7 | flows | [Octopussy](potw/07-octopussy) | [Shopping Trip](07/shopping-trip) | [Knights](07/knights) | [Coin Tossing Tournament](07/coin-tossing-tournament) | [**London**](07/london) |
 | 8 | proximity structures | [**Suez**](potw/08-suez) | [Bistro](08/bistro) | [Germs](08/germs) | [**H1N1**](08/h1n1) | [**Light the Stage**](08/light-the-stage) |
 | 9 | cuts, cost flows | [Kingdom Defence](potw/09-kingdom-defence) | [Real Estate Market](09/real-estate-market) | [**Placing Knights**](09/placing-knights) | [Algocoön Group](09/algocoon) | [Canteen](09/canteen) |
-| 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [Asterix and the Chariot Race](10/asterix-in-switzerland) | |
+| 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-in-switzerland) | [**Evolution**](10/evolution) |
 | 11 | | | | | | |
 | 12 | | | | | | |
 | 13 | | | | | | |
@@ -26,6 +26,7 @@ Marked in **bold** are the harder problems (in my optinion).
 ### Binary Search
 
 * [**Asterix the Gaul**](05/asterix-the-gaul)
+* [**Evolution**](10/evolution)
 
 ### Disjoint-Sets
 
@@ -80,6 +81,11 @@ Marked in **bold** are the harder problems (in my optinion).
 * [**Worldcup**](10/worldcup)
 
 ### Graphs
+
+#### Depth-first Search
+
+* [**Asterix and the Chariot Race**](10/asterix-in-switzerland)
+* [**Evolution**](10/evolution)
 
 #### Shortest Paths
 
@@ -136,7 +142,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [**Severus Snape**](05/severus-snape)
 * [Octopussy](potw/07-octopussy)
 * [**H1N1**](08/h1n1)
-* [Asterix and the Chariot Race](10/asterix-in-switzerland)
+* [**Asterix and the Chariot Race**](10/asterix-in-switzerland)
 
 ### Split & List
 

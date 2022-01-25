@@ -1,3 +1,4 @@
+///2
 #include <bits/stdc++.h>
 
 #include <CGAL/QP_models.h>
@@ -10,14 +11,15 @@ typedef CGAL::Gmpz ET;
 typedef CGAL::Quadratic_program<IT> Program;
 typedef CGAL::Quadratic_program_solution<ET> Solution;
 
-typedef std::tuple<int, int, int, int> Legion; // {a, b, c, v}
+typedef std::tuple<long, long, int, int> Legion; // {a, b, c, v}
 
 void solve() {
   int xs, ys, n; std::cin >> xs >> ys >> n;
 
   std::vector<Legion> legions;
   for (int i = 0; i < n; i++) {
-    int a, b, c, v; std::cin >> a >> b >> c >> v;
+    long a, b; std::cin >> a >> b;
+    int c, v; std::cin >> c >> v;
     legions.push_back({a, b, c, v});
   }
 
@@ -29,14 +31,15 @@ void solve() {
   const int T = 2; lp.set_l(T, true, 0);
 
   for (const auto [a, b, c, v] : legions) {
-    const int Z = std::sqrt(a * a + b * b);
+    const long Z = std::sqrt(a * a + b * b);
 
-    const int ps = a * xs + b * ys + c;
+    const long ps = a * xs + b * ys + c;
     if (ps >= 0) {
       // orientation
       lp.set_a(X, cnt, -a);
       lp.set_a(Y, cnt, -b);
       lp.set_b(cnt, c);
+      cnt++;
 
       // time
       lp.set_a(T, cnt, v * Z);
@@ -49,20 +52,21 @@ void solve() {
       lp.set_a(X, cnt, a);
       lp.set_a(Y, cnt, b);
       lp.set_b(cnt, -c);
+      cnt++;
 
       // time
       lp.set_a(T, cnt, v * Z);
       lp.set_a(X, cnt, a);
       lp.set_a(Y, cnt, b);
       lp.set_b(cnt, -c);
+      cnt++;
     }
-    cnt++;
   }
 
   lp.set_c(T, -1);
 
   Solution s = CGAL::solve_linear_program(lp, ET());
-  int result = std::floor(CGAL::to_double(-s.objective_value()));
+  long result = std::floor(CGAL::to_double(-s.objective_value()));
 
   std::cout << result << std::endl;
 }

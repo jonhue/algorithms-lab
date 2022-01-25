@@ -1,4 +1,3 @@
-///1
 #include <bits/stdc++.h>
 
 #include <boost/pending/disjoint_sets.hpp>

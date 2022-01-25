@@ -1,3 +1,4 @@
+///1
 #include <bits/stdc++.h>
 
 #include <boost/pending/disjoint_sets.hpp>
@@ -101,7 +102,7 @@ void solve() {
     }
   }
 
-  std::cout << CGAL::to_double(q) << std::endl;
+  std::cout << (long)std::ceil(CGAL::to_double(q)) << std::endl;
 }
 
 int main() {

@@ -16,7 +16,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 8 | proximity structures | [**Suez**](potw/08-suez) | [Bistro](08/bistro) | [Germs](08/germs) | [**H1N1**](08/h1n1) | [**Light the Stage**](08/light-the-stage) |
 | 9 | cuts, cost flows | [Kingdom Defence](potw/09-kingdom-defence) | [Real Estate Market](09/real-estate-market) | [**Placing Knights**](09/placing-knights) | [Algocoön Group](09/algocoon) | [Canteen](09/canteen) |
 | 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race) | [**Evolution**](10/evolution) |
-| 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | [Asterix and the Roman Legions](11/asterix-and-the-roman-legions) | |
+| 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | [Asterix and the Roman Legions](11/asterix-and-the-roman-legions) | [**The Iron Islands**](11/the-iron-islands) |
 | 12 | | | | | | |
 | 13 | | | | | | |
 | 14 | | | | | | |
@@ -44,6 +44,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [Deck of Cards](potw/02-deck-of-cards)
 * [Beach Bars](02/beach-bars)
 * [**Hiking Maps**](03/hiking-maps)
+* [**The Iron Islands**](11/the-iron-islands)
 
 ### Two Pointers
 
@@ -57,6 +58,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [From Russia with Love](potw/03-from-russia-with-love)
 * [**Fighting Pits of Mereen**](potw/04-fighting-pits-of-mereen)
 * [**Severus Snape**](05/severus-snape)
+* [**The Iron Islands**](11/the-iron-islands)
 
 ### Geometry
 

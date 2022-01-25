@@ -16,7 +16,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 8 | proximity structures | [**Suez**](potw/08-suez) | [Bistro](08/bistro) | [Germs](08/germs) | [**H1N1**](08/h1n1) | [**Light the Stage**](08/light-the-stage) |
 | 9 | cuts, cost flows | [Kingdom Defence](potw/09-kingdom-defence) | [Real Estate Market](09/real-estate-market) | [**Placing Knights**](09/placing-knights) | [Algocoön Group](09/algocoon) | [Canteen](09/canteen) |
 | 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race) | [**Evolution**](10/evolution) |
-| 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [Idefix and the Mansions of the Gods](11/idefix-and-the-mansions-of-the-gods) | | | |
+| 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [Idefix and the Mansions of the Gods](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | | |
 | 12 | | | | | | |
 | 13 | | | | | | |
 | 14 | | | | | | |
@@ -32,6 +32,7 @@ Marked in **bold** are the harder problems (in my optinion).
 
 * [**GoldenEye**](potw/10-golden-eye)
 * [Idefix and the Mansions of the Gods](11/idefix-and-the-mansions-of-the-gods)
+* [Return of the Jedi](11/return-of-the-jedi)
 
 ### Partial Sums
 
@@ -99,6 +100,7 @@ Marked in **bold** are the harder problems (in my optinion).
 
 * [First Steps with BGL](04/first-steps-with-bgl)
 * [Ant Challenge](04/ant-challenge)
+* [Return of the Jedi](11/return-of-the-jedi)
 
 #### Maximum Cardinality Matching
 

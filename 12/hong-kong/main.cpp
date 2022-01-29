@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 
-#include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
+#include <CGAL/Exact_predicates_exact_constructions_kernel.h>
 #include <CGAL/Delaunay_triangulation_2.h>
 #include <CGAL/Triangulation_vertex_base_2.h>
 #include <CGAL/Triangulation_face_base_with_info_2.h>
 
-typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
+typedef CGAL::Exact_predicates_exact_constructions_kernel K;
 typedef K::Point_2 P;
 
 typedef CGAL::Triangulation_vertex_base_2<K>                   Vb;
@@ -20,13 +20,13 @@ void solve() {
 
   std::vector<P> trees;
   for (int i = 0; i < n; i++) {
-    int x, y; std::cin >> x >> y;
+    long x, y; std::cin >> x >> y;
     trees.push_back(P(x, y));
   }
 
   std::vector<Balloon> balloons;
   for (int i = 0; i < m; i++) {
-    int x, y; K::FT s; std::cin >> x >> y >> s;
+    long x, y; K::FT s; std::cin >> x >> y >> s;
     balloons.push_back({P(x, y), s});
   }
 

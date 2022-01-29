@@ -18,7 +18,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race) | [**Evolution**](10/evolution) |
 | 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | [Asterix and the Roman Legions](11/asterix-and-the-roman-legions) | [**The Iron Islands**](11/the-iron-islands) |
 | 12 | | [San Francisco](potw/12-san-francisco) | [**On Her Majesty's Secret Service**](12/on-her-majestys-secret-service) | [**Hong Kong**](12/hong-kong) | [**Carsharing**](12/carsharing) | [**Bonus Level**](12/bonus-level) |
-| 13 | | | | | | |
+| 13 | | [**Clues**](potw/13-clues) | | | | |
 | 14 | | | | | | |
 
 ## Topics
@@ -88,6 +88,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [**Worldcup**](10/worldcup)
 * [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods)
 * [**Hong Kong**](12/hong-kong)
+* [**Clues**](potw/13-clues)
 
 ### Graphs
 
@@ -122,10 +123,15 @@ Marked in **bold** are the harder problems (in my optinion).
 #### Connected Components
 
 * [Planet Express](potw/06-planet-express)
+* [**Clues**](potw/13-clues)
 
 #### Biconnected Components
 
 * [Important Bridges](04/important-bridges)
+
+#### Bipartite
+
+* [**Clues**](potw/13-clues)
 
 #### Flows
 

@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 
 #include <boost/graph/adjacency_list.hpp>
-#include <boost/graph/cycle_canceling.hpp>
-#include <boost/graph/push_relabel_max_flow.hpp>
 #include <boost/graph/successive_shortest_path_nonnegative_weights.hpp>
 #include <boost/graph/find_flow_cost.hpp>
 
@@ -14,7 +12,6 @@ typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, boost:
                 boost::property <boost::edge_weight_t, long> > > > > graph;
 
 typedef boost::graph_traits<graph>::edge_descriptor             edge_desc;
-typedef boost::graph_traits<graph>::out_edge_iterator           out_edge_it;
 
 class edge_adder {
  graph &G;
@@ -36,7 +33,7 @@ class edge_adder {
   }
 };
 
-typedef std::tuple<int, int, int, int, int> Request; // {s, r, d, a, p}
+typedef std::tuple<int, int, int, int, int> Request; // {from, to, departure, arrival, profit}
 
 const int T = 100'000;
 const int MAX_PROFIT = 100;
@@ -67,7 +64,7 @@ void solve() {
     times[s - 1][d] = 0;
     times[t - 1][a] = 0;
   }
-  int idx;
+  int idx = 0;
   for (int i = 0; i < S; i++) {
     for (auto &[k, v] : times[i]) {
       v = idx++;
@@ -99,14 +96,14 @@ void solve() {
   }
 
   // requests
-  for (const auto [s, t, d, a, p] : requests) {
+  for (const auto &[s, t, d, a, p] : requests) {
     adder.add_edge(times[s - 1][d], times[t - 1][a], 1, (a - d) * MAX_PROFIT - p);
   }
 
   boost::successive_shortest_path_nonnegative_weights(G, source, target);
-  int cost = boost::find_flow_cost(G);
+  long cost = boost::find_flow_cost(G);
 
-  int result = (long)T * (long)total_supply * (long)MAX_PROFIT - cost;
+  long result = (long)T * (long)total_supply * (long)MAX_PROFIT - cost;
 
   std::cout << result << std::endl;
 }

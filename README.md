@@ -17,7 +17,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 9 | cuts, cost flows | [Kingdom Defence](potw/09-kingdom-defence) | [Real Estate Market](09/real-estate-market) | [**Placing Knights**](09/placing-knights) | [Algocoön Group](09/algocoon) | [Canteen](09/canteen) |
 | 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race) | [**Evolution**](10/evolution) |
 | 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | [Asterix and the Roman Legions](11/asterix-and-the-roman-legions) | [**The Iron Islands**](11/the-iron-islands) |
-| 12 | | [San Francisco](potw/12-san-francisco) | [**On Her Majesty's Secret Service**](12/on-her-majestys-secret-service) | [**Hong Kong**](12/hong-kong) | [**Carsharing**](12/carsharing) | |
+| 12 | | [San Francisco](potw/12-san-francisco) | [**On Her Majesty's Secret Service**](12/on-her-majestys-secret-service) | [**Hong Kong**](12/hong-kong) | [**Carsharing**](12/carsharing) | [**Bonus Level**](12/bonus-level) |
 | 13 | | | | | | |
 | 14 | | | | | | |
 
@@ -61,6 +61,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [**Severus Snape**](05/severus-snape)
 * [**The Iron Islands**](11/the-iron-islands)
 * [San Francisco](potw/12-san-francisco)
+* [**Bonus Level**](12/bonus-level)
 
 ### Geometry
 

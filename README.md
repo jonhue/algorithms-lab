@@ -18,7 +18,7 @@ Marked in **bold** are the harder problems (in my optinion).
 | 10 | | [**GoldenEye**](potw/10-golden-eye) | [**Worldcup**](10/worldcup) | [**Asterix in Switzerland**](10/asterix-in-switzerland) | [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race) | [**Evolution**](10/evolution) |
 | 11 | | [The Phantom Menace](potw/11-the-phantom-menace) | [**Idefix and the Mansions of the Gods**](11/idefix-and-the-mansions-of-the-gods) | [Return of the Jedi](11/return-of-the-jedi) | [Asterix and the Roman Legions](11/asterix-and-the-roman-legions) | [**The Iron Islands**](11/the-iron-islands) |
 | 12 | | [San Francisco](potw/12-san-francisco) | [**On Her Majesty's Secret Service**](12/on-her-majestys-secret-service) | [**Hong Kong**](12/hong-kong) | [**Carsharing**](12/carsharing) | [**Bonus Level**](12/bonus-level) |
-| 13 | | [**Clues**](potw/13-clues) | | | | |
+| 13 | | [**Clues**](potw/13-clues) | [**Rubeus Hagrid**](13/rubeus-hagrid) | | | |
 | 14 | | | | | | |
 
 ## Topics
@@ -96,6 +96,7 @@ Marked in **bold** are the harder problems (in my optinion).
 
 * [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race)
 * [**Evolution**](10/evolution)
+* [**Rubeus Hagrid**](13/rubeus-hagrid)
 
 #### Shortest Paths
 
@@ -164,6 +165,7 @@ Marked in **bold** are the harder problems (in my optinion).
 * [**H1N1**](08/h1n1)
 * [**Asterix and the Chariot Race**](10/asterix-and-the-chariot-race)
 * [**Hong Kong**](12/hong-kong)
+* [**Rubeus Hagrid**](13/rubeus-hagrid)
 
 ### Split & List
 

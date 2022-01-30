@@ -22,3 +22,5 @@ t = 2 l + t_S.
 $$
 
 After obtaining the result for the root node $0$, we simply return the difference between the total number of galleons and $g$.
+
+The time complexity is $\mathcal{O}(n \log n)$.

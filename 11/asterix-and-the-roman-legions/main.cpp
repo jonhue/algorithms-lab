@@ -1,4 +1,3 @@
-///2
 #include <bits/stdc++.h>
 
 #include <CGAL/QP_models.h>
